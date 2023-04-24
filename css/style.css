@@ -8,15 +8,6 @@ body {
     background-color: #000;
 }
 
-.heart2 {
-    width: 100%;
-    position: absolute;
-    top: 31%;
-    text-align: center;
-    color: rgba(234, 128, 176, 0.5);
-    font-size: 3vw;
-}
-
 body::-webkit-scrollbar {
     display: none;
 }
@@ -93,10 +84,10 @@ h2 {
     text-align: center;
 }
 
-/* #c {
+#c {
     display: block;
     margin: calc(50vh - 175px) auto;
-} */
+}
 
 h3 {
     background-color: rgb(0, 0, 0);
