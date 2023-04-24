@@ -6,7 +6,7 @@ var ch = c.height = 400,
     cy = ch / 2;
 var frames = 0;
 var R = 100;// for the heart path
-var howMany = 150;// how many particles
+var howMany = 250;// how many particles
 var p = []; // particles array
 var D = 25;
 /*var colors = [170, 180, 190, 200, 210];*/
