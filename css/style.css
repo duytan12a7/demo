@@ -17,6 +17,14 @@ body::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
+.effect-heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    margin-top: 20px;
+}
 
 .effect-text {
     font-size: 50px;
@@ -27,6 +35,7 @@ body::-webkit-scrollbar {
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+
 .tiny-heart {
     position: absolute;
     opacity: 0;
