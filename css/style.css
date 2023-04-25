@@ -103,8 +103,9 @@ h3 {
     width: 100%;
     color: rgb(255 255 255);
     height: 100%;
-    font-size: 27px;
-    font-style: bold;
+    font-size: 28px;
+    font-style:bold;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-shadow: 0 0 10px rgb(225 12 168), 0 0 10px rgb(225 12 168), 0 0 10px rgb(225 12 168);
