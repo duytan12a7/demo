@@ -18,30 +18,38 @@
       <canvas id="c"></canvas>
     </div>
     <div class="effect-text">
-      <h2>Minh Anh</h2>
+      <!-- <h2>Minh Anh</h2> -->
+      <div id="clock-box">
+        <div id="clock">
+          <date>0 NGÀY</date>
+          <time>00:00:00</time>
+          <minus>0</minus>
+          <!-- <anni>0</anni> -->
+          <!-- <p>25/12/2022 </p>
+          <p>01/02/2023</p>
+          <p>15/03/2023</p> -->
+        </div>
+      </div>
     </div>
     <canvas class="canvas" id="pinkboard"></canvas>
     <div class="mark">
-      <h3 class="col-xs-12">Anh giống như Mr. Fantastic</h3>
-      <h3 class="col-xs-12">
-        Bởi vì  <del> không có em </del>  "hạnh phúc của anh" - biết vô hình
-      </h3>
+      <p class="col-xs-12">Anh giống như Mr. Fantastic</p>
+      <p class="col-xs-12">
+        Bởi vì <del>không có em</del> "hạnh phúc của anh" - biết vô hình
+      </p>
+
+      <div id="music">
+        <audio loop autoplay controls>
+          Your browser does not support the audio element.
+        </audio>
+      </div>
       <!-- <h3 class="col-xs-12">Và sau khi gặp em, anh chuyển sang hướng về em</h3> -->
-         <h3 class="col-xs-12">💗 Minh Anh 💗</h3>
+      <!-- <h3 class="col-xs-12">💗 Minh Anh 💗</h3> -->
     </div>
-    <script>
-      let audio = document.createElement("audio");
-      audio.src = "https://duytan12a7.github.io/demo/911.mp3";
-      audio.loop = true;
-      audio.volume = 0.6;
-      audio.autoplay = true;
-      window.onclick = function () {
-        audio.play();
-      };
-    </script>
     <script type="text/javascript" src="./js/heart.js"></script>
     <script type="text/javascript" src="./js/heart2.js"></script>
-     <!-- <canvas id="phaohoa">Canvas không hổ trợ trình duyệt của bạn.</canvas>
+    <script type="text/javascript" src="./js/counttime.js"></script>
+    <!-- <canvas id="phaohoa">Canvas không hổ trợ trình duyệt của bạn.</canvas>
      <script type="text/javascript" src="./js/phaohoa.js"> </script> -->
     <script>
       $(function () {
