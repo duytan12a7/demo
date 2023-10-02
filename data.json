@@ -6,28 +6,32 @@
       "MissionDescription": "Hạ gục 10 cá X5 Fish2D",
       "CurrentItem": 10,
       "NumItemRequest": 10,
-      "CoinReward": 10000
+      "CoinReward": 10000,
+      "Status": 0
     },
     {
       "MissionID": 1,
       "MissionDescription": "Hạ gục 100 cá X100 - X250 Fish3D",
       "CurrentItem": 50,
       "NumItemRequest": 100,
-      "CoinReward": 100000
+      "CoinReward": 100000,
+      "Status": 0
     },
     {
       "MissionID": 2,
       "MissionDescription": "Hoàn thành nạp 20,000 Gold",
       "CurrentItem": 0,
       "NumItemRequest": 20000,
-      "CoinReward": 10000
+      "CoinReward": 10000,
+      "Status": 1
     },
     {
       "MissionID": 3,
       "MissionDescription": "Hạ gục 30 Chuột Boom (X10) SmashTheRat",
       "CurrentItem": 0,
       "NumItemRequest": 10,
-      "CoinReward": 10000
+      "CoinReward": 10000,
+      "Status": 0
     }
   ]
 }
