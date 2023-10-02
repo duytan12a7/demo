@@ -7,7 +7,8 @@
       "CurrentItem": 10,
       "NumItemRequest": 10,
       "CoinReward": 10000,
-      "Status": 0
+      "Status": 1,
+      "Type": 0
     },
     {
       "MissionID": 1,
@@ -15,7 +16,8 @@
       "CurrentItem": 50,
       "NumItemRequest": 100,
       "CoinReward": 100000,
-      "Status": 0
+      "Status": 0,
+      "Type": 0
     },
     {
       "MissionID": 2,
@@ -23,15 +25,17 @@
       "CurrentItem": 0,
       "NumItemRequest": 20000,
       "CoinReward": 10000,
-      "Status": 1
+      "Status": 0,
+      "Type": 1
     },
     {
       "MissionID": 3,
       "MissionDescription": "Hạ gục 30 Chuột Boom (X10) SmashTheRat",
-      "CurrentItem": 0,
-      "NumItemRequest": 10,
+      "CurrentItem": 30,
+      "NumItemRequest": 30,
       "CoinReward": 10000,
-      "Status": 0
+      "Status": 2,
+      "Type": 0
     }
   ]
 }
